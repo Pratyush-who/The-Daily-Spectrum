@@ -1,0 +1,167 @@
+body{
+background-size: initial;
+ background-position: center;  
+background-repeat: repeat;
+background-image: url("./imgs-np/texture.jpg");
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 15px;
+}
+.border-1{
+    border-top: 5px solid black ;
+    /* border-top: 2px groove black; */
+    width: 100%;
+}
+.border-2{
+    border-top: 3px solid black;
+    width: 100%;
+}
+.the-line{
+    display: flex;
+    align-items: center;
+}
+.dailynews{
+    display: flex;
+    justify-content: center;
+}
+.border-3{
+border-top: 3px black solid;
+}
+.border-4{
+border-top: 5px black solid;
+}
+.box2 {
+    font-family: "Dela Gothic One", sans-serif;
+    display: flex;
+}
+.circle-logo a{
+    color: #C23C12;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 20px;
+    width: 40%;
+    
+}
+.homendall a{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.homendall{
+    width: 81%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 0%;
+}
+.outer-box{
+    height: 125vh;
+    width: 98%;
+    border: 5px black solid;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.discovering{
+    font-family: OldLondon;
+    font-size: 100px; 
+    font-weight: 700; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.video-container {
+    width: 45vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height (or a custom size for a 9:16 aspect ratio) */
+    position: absolute;
+    right: 45px;
+    overflow: hidden; /* Crop the video */
+}
+.video-container video {
+    width: 45vw;  /* Maintain the aspect ratio */
+    height: 100%; /* Stretch video to fill the height of the container */
+    object-fit: cover; /* Crop the video to fill the container */
+    object-position: center; /* Focus on the center part of the video */
+}
+.written{
+    display: flex;
+}
+.left-text-p1{
+    width: 22vw;
+    display: flex;
+}
+.left-text-p1 p{
+    padding-left: 2px;
+    padding-top: -20px;
+}
+.left-text-p2{
+    width: 22vw;
+    display: flex;
+    margin-top: -33px;
+}
+.right-pt{
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 26vw;
+}
+.written p{
+    font-size: 16px;
+    word-spacing: 4px;
+    line-height: 20px;
+}
+.hero-2{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 48vw;
+    margin-bottom: 20px;
+}
+.hero-2 img{
+    /* margin-top: 30px; */
+    margin-bottom: 200px;
+    position: absolute;
+    left: 51vw;
+}
+.line1 p{
+    font-family: "Dela Gothic One", sans-serif;
+    color: #CCC8BF;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.line1{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.scrolling-text {
+    white-space: nowrap; 
+    display: inline-block;     
+    position: relative;
+    animation: scroll-left 12s linear infinite;
+    font-size: 50px;
+    font-family: "Dela Gothic One", sans-serif;
+    color: black;
+}
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.scroll-container {
+    width: 98%;             
+    overflow: hidden;         
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
