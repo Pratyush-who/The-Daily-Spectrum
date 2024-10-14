@@ -150,9 +150,14 @@ border-top: 5px black solid;
     font-family: "Dela Gothic One", sans-serif;
     color: black;
 }
+.scrolling-text:hover{
+   animation-play-state: paused;
+   cursor: grabbing;
+}
+
 @keyframes scroll-left {
     0% {
-        transform: translateX(100%);
+        transform: translateX(150%);
     }
     100% {
         transform: translateX(-100%);
@@ -164,4 +169,5 @@ border-top: 5px black solid;
     border: 1px solid #ddd;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0);
+    cursor: grab;
 }
